@@ -18,7 +18,7 @@ def reserveSeats():
     # 现在还没能实现cookie的自动化，主要是没时间搞，不然必拿下它好吧！
     headers = {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 NchuApp/1.0.16 NetType/4G MicroMessenger/8.0.32.2300",
-        "Cookie": "auth=9fd1EMV69z8FpUWKIroTwSRaP9vnaFar_8_70W9t0dMV-JHuY_tT3LL0OVoH4Arft6XVOXHGVBHZhOSHqg;uid=f962zwW5K42T8z5_DT3KxDgo9a3sCfvyJw51lK8m-NtPTu0;"
+        "Cookie": "auth=9fd1EMV69z8FpUWKIroTwSRaP9vFar_8_70W9t0dMV-JHuY_tT3LL0OVoH4Arft6XVOXHGVBHZhOSHqg;uid=f962zwW5z5_DT3KxDgo9a3sCfvyJw51lK8m-NtPTu0;"
     }
 
     data = {
