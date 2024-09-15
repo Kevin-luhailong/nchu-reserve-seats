@@ -13,12 +13,12 @@ def reserveSeats():
     # 预约哪个时间点 07：00-20:00 ; 预约多久 0-6h
     beginTime = int(tomorrow_timestamp) + 8 * 3600
     duration = 6 * 3600
-    seats = ["18110", "18082"]  # 18110对应的是348座，每个座位在此基础上加减2，有部分座位不太一样，懒得搞了
-    seatBookers = ["282797", "281901"]  # xxx、 me  这是每个人的账号，这个必须抓包才能拿到，到现在没找到别的方法，将就一下用吧
+    seats = ["18108", "18082"]  # 对应的是347座和345座，每个座位在此基础上加减2，有部分座位不太一样，懒得搞了
+    seatBookers = ["28x79x", "xxxxxxx"]  # xxx、 xxx  这是每个人的账号，这个必须抓包才能拿到，到现在没找到别的方法，将就一下用吧
     # 现在还没能实现cookie的自动化，主要是没时间搞，不然必拿下它好吧！
     headers = {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 NchuApp/1.0.16 NetType/4G MicroMessenger/8.0.32.2300",
-        "Cookie": "auth=9fd1EMV69z8FpUWKIroTwSRaP9vFar_8_70W9t0dMV-JHuY_tT3LL0OVoH4Arft6XVOXHGVBHZhOSHqg;uid=f962zwW5z5_DT3KxDgo9a3sCfvyJw51lK8m-NtPTu0;"
+        "Cookie": "auth=xxxxxxxxxxx;uid=xxxxxxxxxxxxx;"  # 抓包抓到这两个字段就行，测试来看应该是cookie永不过期
     }
 
     data = {
